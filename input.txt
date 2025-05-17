@@ -1,8 +1,4 @@
-x = 2 + 3
-y = 3
-z = x + y
-z
-
-
-
-
+int suma(int a, int b) {
+ 
+    return a + b * (a - 1);
+}
