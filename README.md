@@ -1,3 +1,31 @@
+# ejemplos
+Input_correcto_1.txt
+:
+int suma(int a, int b) {
+ 
+    return a + b * (a - 1);
+}
+
+Input_incorrecto_1.txt
+int suma(int a, int b) {
+ 
+    return a - b * (a  1);
+}
+
+Input_correcto_2.txt
+
+int suma(int a, int b) {
+ 
+    return a - b * (a + 1);
+}
+
+Input_incorrecto_2.txt
+
+int suma(int , int b) {
+ 
+    return a + b * (a - 1);
+}
+
 # Readme
 El proposito de este proyecto es que define la sintaxis de un lenguaje de programación muy simple, que permite escribir funciones con tipos básicos (int, float, char), parámetros, y un cuerpo que contiene solo instrucciones return con expresiones aritméticas.
 Mostremos los pasos para poder acceder al proyecto y como poder usar el programa..:
